@@ -133,6 +133,17 @@
       }
     },
     {
+      "name": "range_field_conjunction_big_term_query",
+      "operation-type": "search",
+      "body": {
+        "query": {
+          "term": {
+            "station.country_code": "US"
+          }
+        }
+      }
+    },
+    {
       "name": "range_field_disjunction_small_range_small_term_query",
       "operation-type": "search",
       "body": {
